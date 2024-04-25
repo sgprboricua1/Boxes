@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  
+  header {
+    background: blue;
+  }
+
+  header {
+    padding: 10px;
+    text-align: center;
+    background: green;
+    color: #fff;
+  }
+
+  header::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  nav {
+
+    float: right;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-left: 35px;
+    padding-top: 25px;
+  }
+  
+
+  aside {
+    flex: 30%;
+    background-color: none;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin: 25px;
+  }
+  
+
+  #sidebar1{
+    background-color: white;
+    width: 20%;
+    padding: 20px;
+    height: 200px;
+    border: 1px none black;
+    margin: 0px;   
+  } 
+
+  #sidebar2{
+  position: absolute;
+  top: 120%;
+  background-color: white;
+  width: 20%;
+  padding: 20px;
+  height: 0px;
+  border: 1px none black;
+  margin: 0px;
+
+  }
+  #section1 {
+  background-color: none;
+  position: relative;
+  left: 20%;
+  top: 50%;
+  border: 1px solid black;
+  margin: 5px solid;
+  }
+
+  .section3 {
+  position: absolute;
+  top: 210px;
+  background-color: none;
+  width:70%;
+  padding: 20px;
+  height: 200px;
+  border: 1px none black;
+  margin-left: 25%;
+  }
+
+  .section4 {
+  position: absolute;
+  top: 420px;
+  background-color: rgb(107, 107, 69);
+  width:70%;
+  padding: 20px;
+  height: 200px;
+  border: 1px solid black;
+  margin-left: 25%;
+  }
+
+  .section5 {
+  position: absolute;
+  top: 630px;
+  right: 5%;
+  background-color: yellow;
+  width:30%;
+  padding: 20px;
+  height: 100px;
+  border: 1px solid black;
+  margin-left: 25%;
+  }
+
+  .section6 {
+  position: absolute;
+  top: 630px;
+  right: 45%;
+  background-color: yellow;
+  width:30%;
+  padding: 20px;
+  height: 100px;
+  border: 1px solid black;
+  margin-left: 20%;
+  }
+
+  .section7 {
+  position: absolute;
+  top: 740px;
+  right: 5%;
+  background-color: yellow;
+  width:30%;
+  padding: 20px;
+  height: 100px;
+  border: 1px solid black;
+  margin-left: 25%;
+  }
+
+  .section8 {
+  position: absolute;
+  top: 740px;
+  right: 45%;
+  background-color: yellow;
+  width:30%;
+  padding: 20px;
+  height: 100px;
+  border: 1px solid black;
+  margin-left: 25%;
+  }
+  
+  .div{
+  text-align: center;
+  border: 1px solid black;
+  padding: 40px;
+  background-color: bisque;
+  }
+ #footer1 {
+  position: absolute;
+  top: 120%;
+  width:70%;
+  padding: 20px;
+  height: 100px;
+  margin-left: 30%;
+  }
+
+  #footer2 {
+  position: absolute;
+  top: 120%;
+  width:70%;
+  padding: 20px;
+  height: 100px;
+  margin-left: 45%;
+  }
+
+  #footer3 {
+  position: absolute;
+  top: 120%;
+  width:70%;
+  padding: 20px;
+  height: 100px;
+  margin-left: 60%;
+  }
+
+  #footer4 {
+  position: absolute;
+  top: 120%;
+  width:70%;
+  padding: 20px;
+  height: 100px;
+  margin-left: 75%;
+  }
